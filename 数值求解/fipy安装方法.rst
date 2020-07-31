@@ -32,11 +32,13 @@ fipy官网为： https://www.ctcms.nist.gov/fipy/
 ---------
 
 串行运行测试：
+
 .. code-block:: 
 
    python3 -c "import fipy; fipy.test('--petsc')"
 
 并行运行测试：
+
 .. code-block:: 
 
    mpirun -np 你的处理器个数 python3 -c "import fipy; fipy.test('--petsc')"
